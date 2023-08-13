@@ -1,0 +1,49 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: url(contact.jpg), fixed center center no-repeat;
+    background-size: cover;
+}
+
+.container {
+    background: none;
+    font-size: 23px;
+    position: absolute;
+    top: 320px;
+    left: 225px;
+}
+
+.item {
+    margin: 5px;
+    padding-bottom: 4px;
+    border-block-end: 2px solid black;
+}
+
+.btn {
+    margin-left: 204px;
+    font-size: 20px;
+    background: none;
+    border: none;
+    margin-top: 5px;
+    border-bottom: 6px solid black;
+    padding: 0px 12px;
+}
+
+.bgnone {
+    background: none;
+    border: none;
+    margin-top: 4px;
+}
+
+#logo {
+    margin: 15px 35px;
+  }
+  
+  #logo img {
+    height: 80px;
+    margin: 5px 10px;
+    border-radius: 25px;
+  }

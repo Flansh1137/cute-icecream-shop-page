@@ -1,0 +1,139 @@
+* {
+  margin: 0px;
+}
+
+.container {
+  background: url("/img/reachus.jpg") center/cover;
+  height: 650px;
+  width: 100%;
+}
+
+#navbar {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+#navbar::before {
+  content: " ";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  /* background-color: pink; */
+  opacity: 0.8;
+  z-index: -1;
+}
+
+#logo {
+  margin: 15px 35px;
+}
+
+#logo img {
+  height: 80px;
+  margin: 5px 10px;
+  border-radius: 25px;
+}
+
+#navbar ul {
+  display: flex;
+}
+
+#navbar ul li {
+  display: flex;
+  list-style: none;
+  font-size: 30px;
+  padding-left: 60px;
+}
+
+#navbar ul li a:hover {
+  background-color: black;
+  color: PINK;
+}
+
+#navbar ul li a {
+  color: black;
+  display: block;
+  padding: 0px 30px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+#navbar button {
+  margin-left: 300px;
+  padding: 12px;
+  font-size: 20px;
+  background-color: black;
+  color: rgb(245, 114, 245);
+  border-radius: 25px;
+  border: 0px;
+}
+
+#navbar button:hover {
+  background-color: rgb(215, 73, 237);
+  color: black;
+}
+
+.heading {
+  background-color: mintcream;
+}
+
+#heading {
+  text-align: center;
+  font-family: "Licorice", cursive;
+  padding-top: 530px;
+  margin-top: 15px;
+}
+
+.contact {
+  margin-top: 40px;
+  font-size: 30px;
+  text-align: center;
+  background-color: burlywood;
+  color: black;
+}
+
+.footer {
+  margin-top: 440px;
+  text-align: center;
+  background-color: lightgray;
+  color: black;
+}
+
+.login :hover {
+  background-color: rgb(215, 73, 237);
+  color: black;
+}
+
+.login {
+  color: rgb(245, 114, 245);
+  background-color: black;
+  text-decoration: none;
+}
+
+.products {
+  display: flex;
+  /* background-color: red; */
+  justify-content: space-evenly;
+  text-align: center;
+  margin: 20px;
+}
+
+.p {
+  border-radius: 25px;
+}
+
+.item{
+  align-items: center;
+}
+
+.number{
+  margin-top: 10px;
+}
+
+.buy{
+  text-align: center;
+  /* margin: 0px 50px 0px 50px; */
+  /* align-items: center; */
+  /* align-self: center; */
+align-content: center;
+}
